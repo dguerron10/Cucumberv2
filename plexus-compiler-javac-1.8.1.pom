@@ -4,18 +4,19 @@
 
   <parent>
     <groupId>org.codehaus.plexus</groupId>
-    <artifactId>plexus-compiler</artifactId>
+    <artifactId>plexus-compilers</artifactId>
     <version>1.8.1</version>
   </parent>
+  
+  <artifactId>plexus-compiler-javac</artifactId>
 
-  <artifactId>plexus-compiler-manager</artifactId>
-
-  <name>Plexus Compiler Manager</name>
+  <name>Plexus Javac Component</name>
 
   <dependencies>
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
-      <artifactId>plexus-compiler-api</artifactId>
+      <artifactId>plexus-utils</artifactId>
     </dependency>
   </dependencies>
+  
 </project>
