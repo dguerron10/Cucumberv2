@@ -8,18 +8,14 @@
     <version>1.8.1</version>
   </parent>
 
-  <artifactId>plexus-compiler-api</artifactId>
+  <artifactId>plexus-compiler-manager</artifactId>
 
-  <name>Plexus Compiler Api</name>
+  <name>Plexus Compiler Manager</name>
 
   <dependencies>
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
-      <artifactId>plexus-utils</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <artifactId>plexus-compiler-api</artifactId>
     </dependency>
   </dependencies>
 </project>
